@@ -1,14 +1,14 @@
 using System;
-namespace Problema_1_Modelado_Clases.Vuelos
+namespace Problema_1_Modela.Vuelos
 {
     class Flight
     {
-        public string DepartureStation{get;}
-        string ArrivalStation{get;}
-        DateTime DepartureDate{get;}
-        //public Transport Transport;
-        decimal Price{get;}
-        public string Currency{get;}
+        public string DepartureStation{get; set;}
+        public string ArrivalStation{get; set;}
+        public DateTime DepartureDate{get; set;}
+        private Transport transport;
+        public decimal Price{get;}
+        public string Currency{get; set;}
 
         public void Mostar()
         {
