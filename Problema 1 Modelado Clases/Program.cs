@@ -7,11 +7,14 @@ namespace Problema_1_Modelado
     {
         static void Main(string[] args)
         {
-            string[] lineas=File.ReadAllLines("./File/Prueba.csv");
+            string[] lineas=File.ReadAllLines("./File/Cuidades.csv");
             foreach(var linea in lineas)
             {
-                var valores = linea.Split(';');
-                Console.WriteLine("parte de: "+valores[0][0]+"llega a:" +valores[0][1]);
+                if (linea.Equals("AGS"))
+                {
+                    Console.WriteLine("Todo bien");
+                }
+                
             }
         }
     }
