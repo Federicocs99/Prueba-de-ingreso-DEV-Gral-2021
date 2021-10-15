@@ -1,0 +1,16 @@
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 1 Modelado Clases\bin\Debug\net5.0\Problema 1 Modelado Clases.exe
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 1 Modelado Clases\bin\Debug\net5.0\Problema 1 Modelado Clases.deps.json
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 1 Modelado Clases\bin\Debug\net5.0\Problema 1 Modelado Clases.runtimeconfig.json
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 1 Modelado Clases\bin\Debug\net5.0\Problema 1 Modelado Clases.runtimeconfig.dev.json
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 1 Modelado Clases\bin\Debug\net5.0\Problema 1 Modelado Clases.dll
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 1 Modelado Clases\bin\Debug\net5.0\ref\Problema 1 Modelado Clases.dll
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 1 Modelado Clases\bin\Debug\net5.0\Problema 1 Modelado Clases.pdb
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 1 Modelado Clases\obj\Debug\net5.0\Problema 1 Modelado Clases.csproj.AssemblyReference.cache
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 1 Modelado Clases\obj\Debug\net5.0\Problema 1 Modelado Clases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 1 Modelado Clases\obj\Debug\net5.0\Problema 1 Modelado Clases.AssemblyInfoInputs.cache
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 1 Modelado Clases\obj\Debug\net5.0\Problema 1 Modelado Clases.AssemblyInfo.cs
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 1 Modelado Clases\obj\Debug\net5.0\Problema 1 Modelado Clases.csproj.CoreCompileInputs.cache
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 1 Modelado Clases\obj\Debug\net5.0\Problema 1 Modelado Clases.dll
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 1 Modelado Clases\obj\Debug\net5.0\ref\Problema 1 Modelado Clases.dll
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 1 Modelado Clases\obj\Debug\net5.0\Problema 1 Modelado Clases.pdb
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 1 Modelado Clases\obj\Debug\net5.0\Problema 1 Modelado Clases.genruntimeconfig.cache
