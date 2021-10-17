@@ -1,0 +1,20 @@
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 3\obj\Debug\net5.0\Problema 3.csproj.AssemblyReference.cache
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 3\obj\Debug\net5.0\Problema 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 3\obj\Debug\net5.0\Problema 3.AssemblyInfoInputs.cache
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 3\obj\Debug\net5.0\Problema 3.AssemblyInfo.cs
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 3\obj\Debug\net5.0\Problema 3.csproj.CoreCompileInputs.cache
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 3\bin\Debug\net5.0\Problema 3.exe
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 3\bin\Debug\net5.0\Problema 3.deps.json
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 3\bin\Debug\net5.0\Problema 3.runtimeconfig.json
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 3\bin\Debug\net5.0\Problema 3.runtimeconfig.dev.json
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 3\bin\Debug\net5.0\Problema 3.dll
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 3\bin\Debug\net5.0\ref\Problema 3.dll
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 3\bin\Debug\net5.0\Problema 3.pdb
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 3\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 3\bin\Debug\net5.0\RestSharp.dll
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 3\bin\Debug\net5.0\System.Reactive.Windows.Forms.dll
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 3\obj\Debug\net5.0\Problema 3.csproj.CopyComplete
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 3\obj\Debug\net5.0\Problema 3.dll
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 3\obj\Debug\net5.0\ref\Problema 3.dll
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 3\obj\Debug\net5.0\Problema 3.pdb
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\Problema 3\obj\Debug\net5.0\Problema 3.genruntimeconfig.cache

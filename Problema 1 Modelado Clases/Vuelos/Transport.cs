@@ -1,9 +1,16 @@
+using System;
+
 namespace Problema_1_Modela.Vuelos
 {
-    class Transport
+    public class Transport
     {
-        public string FligthNumbre{get;set;}
-        public Transport(string Numero_Vuelo) => (FligthNumbre)=(FligthNumbre);
+        public string FligthNumbre{get;}
+        public Transport() => FligthNumbre = Guid.NewGuid().ToString();
+       
+        public override string ToString()
+        {
+            return FligthNumbre;
+        }
     }
 
 }

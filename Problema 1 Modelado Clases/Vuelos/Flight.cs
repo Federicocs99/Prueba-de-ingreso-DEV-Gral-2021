@@ -1,5 +1,7 @@
 using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 
 namespace Problema_1_Modela.Vuelos
 {
@@ -8,44 +10,22 @@ namespace Problema_1_Modela.Vuelos
         public string DepartureStation { get; set; }
         public string ArrivalStation { get; set; }
         public DateTime DepartureDate { get; set; }
-        private Transport transport;
+        public Transport Transport { get; }
         public decimal Price { get; }
         public string Currency { get; set; }
-
-
-        public void MostarVuelos()
+        public Flight()
         {
-            string[] lineas = File.ReadAllLines("./File/Vuelos_Fechas.csv");
-            //El archivo contiene las aeropuertos en codigo IATA de las que pueden partir vuelos (uso un csv para emular el uso de BD y se podría replamplazar por un query: SELECT DISTINCT DepartureStation FROM flight;)
-            bool marcador = true;
-                foreach (var linea in lineas)
-                {
-
-                    var valor = linea.Split(";");
-                    if ((valor[0]+valor[1]).Equals(DepartureStation + ArrivalStation))
-                    {
-                        DateTime FechaDeVuelo = Convert.ToDateTime(valor[2]);
-                        Console.WriteLine(FechaDeVuelo);
-                        int result = DateTime.Compare(FechaDeVuelo,DepartureDate);
-
-                        if(result==0)
-                        {
-
-                            Console.WriteLine("Existe un vuelo para fecha seleccionada y es: "+ FechaDeVuelo );
-                            marcador=false;
-
-                        }
-                    }
-
-                }
-                if (marcador)
-                {
-                    Console.WriteLine("No existen vuelos para la fecha selecionada");
-                }
-
-
-
-
+            Transport = new Transport();
+            var guid = Guid.NewGuid();
+            var justNumbers = new String(guid.ToString().Where(Char.IsDigit).ToArray());
+            var seed = int.Parse(justNumbers.Substring(0, 4));
+            var random = new Random(seed);
+            var value = random.Next(1, 100);
+            decimal Price = value;
+        }
+        public void MostrarVuelo()
+        {
+            Console.WriteLine($"El Vuelo Sale de: {DepartureStation} y llega a: {ArrivalStation} En la fecha:{DepartureDate} Tiene numero de Vuelo: {Transport.FligthNumbre } Con precio de: {Price} {Currency}");
         }
     }
 }
