@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@model Flight
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,24 +10,20 @@
     <title>NewShore_</title>
 </head>
 <body>
+  <form method="Post">
   <div class="fly-date">
     <div class="col-md-3">
         <label for="validationDefault04" class="form-label">Origen</label>
-        <select class="form-select" id="validationDefault04" required>
-          <option selected disabled value="">Choose...</option>
-          <option>...</option>
-        </select>
+        <input asp-for="DepartureStation" />
       </div>
 
       <div class="col-md-3">
         <label for="validationDefault04" class="form-label">Destino</label>
-        <select class="form-select" id="validationDefault04" required>
-          <option selected disabled value="">Choose...</option>
-          <option>...</option>
-        </select>
+        <input asp-for="ArrivalStation" /> 
       </div>
         
-      <input type="date" id="start" name="trip-start"
+      <input type="datetime" id="start" name="trip-start" 
+             aps-for="DepartureDate"
              value="2021-10-16"
              min="2021-10-15" max="2022-12-31">
 
@@ -34,7 +31,8 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </div>
      <div class="cta">
-     <button type="button" class="btn btn-light">Buscar Vuelos</button>
+     <input type="submit">
      </div> 
+  </form>
 </body>
 </html>
