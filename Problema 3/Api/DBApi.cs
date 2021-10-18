@@ -8,6 +8,9 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web;
+//
+//Class extraida de https://www.youtube.com/channel/UC21OAyBS8vDOcOH-QElpeMQ
+//
 
 namespace Clases.ApiRest
 {

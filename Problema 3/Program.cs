@@ -8,14 +8,18 @@ namespace Problema_3
     {
         static void Main(string[] args)
         {
+            ClaseInicio Inicio =new ClaseInicio();
             DBApi dBapi = new DBApi();
-            string json = "{\"Origin\": \"MDE\",\"Destination\": \"CTG\",\"From\": \"2022-01-27\"}";
-            dynamic datos = dBapi.Post("http://testapi.vivaair.com/otatest/api/values",json);
-            dynamic Desdatos = JsonConvert.DeserializeObject(datos);
-            foreach(var dato in Desdatos)
+            EnvioApi Info = new EnvioApi
             {
-                //hacer algo
-            }
-        }
-}
+                Origin ="MDE",
+                Destination = "CTG",
+                From= "2022-01-27"
+            };
+            string Datos=Info.Serialize(Info);
+            string json = dBapi.Post("http://testapi.vivaair.com/otatest/api/values",Datos);
+            Inicio.Deserializacion(json);
+            
+        }       
+    }
 }
