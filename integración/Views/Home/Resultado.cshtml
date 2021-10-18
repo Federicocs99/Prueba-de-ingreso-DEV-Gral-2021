@@ -1,0 +1,14 @@
+﻿@model Flight
+@{
+    ViewData["Title"] = "Información De Vuelo";
+    Layout = "_Layout";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<strong>Los Vuelos son</strong>
+<p>
+Salida: @Model.DepartureDate   <br/> 
+llegada: @Model.ArrivalStation
+Precio: @Model.Price
+<p>

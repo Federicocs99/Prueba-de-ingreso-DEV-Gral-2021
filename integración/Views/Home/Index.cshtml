@@ -11,7 +11,12 @@
 </head>
 
 <body>
-  <div asp-validarion-summary="All"></div>
+@if (ViewBag.mensaje != null)
+{
+<div class="alert alert-success" role="alert">
+    @ViewBag.mensaje
+</div>
+}
   <form method="Post">
   <div class="fly-date">
 
@@ -37,6 +42,7 @@
     </div>
      <div class="cta">
      <input type="submit">
+
      </div> 
   </form>
 </body>

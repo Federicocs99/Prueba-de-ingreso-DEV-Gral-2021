@@ -52,3 +52,4 @@ C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\integración\
 C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\integración\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\integración\bin\Debug\net5.0\RestSharp.dll
 C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\integración\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Federico\Documents\GitHub\Prueba-de-ingreso-DEV-Gral-2021\integración\obj\Debug\net5.0\Razor\Views\Home\Resultado.cshtml.g.cs
